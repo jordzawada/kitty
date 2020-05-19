@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -29,6 +28,10 @@
   color: #61dafb;
 }
 
+#idCatLogo {
+  height: 100px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,4 +39,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#idTitle{
+  height: 250px;
+  padding-top: 75px;
+  
+
+}
+
+#idNav {
+  align-content: center;
+  background-color: blanchedalmond;
+  max-width: 900px;
+  border: solid 1.5px #555555;
+  /* border-radius: 5px; */
+  margin: auto;
+  border-bottom: none;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#idMain{
+  background-color: blanchedalmond;
+  max-width: 900px;
+  border: solid 1.5px #555555;
+  margin: auto;
+  min-height: 800px;
+  /* border-radius: 3px; */
+  border-bottom-left-radius:10px ;
+  border-bottom-right-radius:10px ;
+}
+
+#idNavButtonsDiv {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 51px;
+}
+
+.classNavButtons {
+  font-family: "Raleway";
+  height: 50px;
+  border-top: none;
+  border-bottom: none;
+  /* border-radius: 2px; */
+  background: darkgrey;
+  width: 224px;
+  font-size: 20px;
+  font-weight: 100;
+  border-left: grey;
+}
+
+#idHome{
+  border-top-left-radius: 5px;
+  border-left: none;
+}
+
+#idContact{
+  border-top-right-radius: 5px ;
+  border-right: none;
+}
+
+#idShopBox{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 20px;
+  justify-content: center;
+}
+
+#idProductCard{
+  width: 225px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: #AA8E39;
+  margin: 5px;
+  border: solid #554000 2px;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-weight: 100;
+}
+
+#idFooter {
+ color: purple;
 }
